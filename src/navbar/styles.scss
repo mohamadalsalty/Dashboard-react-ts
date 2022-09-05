@@ -1,0 +1,16 @@
+$main : #057a55;
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+    background-color: $main;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &>div{
+        font-size: 20px;
+        color: white;
+    }
+}

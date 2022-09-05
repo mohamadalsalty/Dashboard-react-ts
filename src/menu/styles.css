@@ -1,0 +1,48 @@
+.menu {
+  position: fixed;
+  top: 0;
+  background-color: #252f3f;
+  width: 200px;
+  min-height: 30px;
+  height: 100%;
+  overflow-y: auto;
+  display: block;
+}
+.menu > .pages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menu > .pages > a {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.menu > .pages > a > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.menu > .pages > a:hover {
+  font-size: 25px;
+  transition: 100ms;
+  background-color: #4c5768;
+}
+.menu > .pages > a:first-child {
+  padding-top: 23.5px;
+  padding-bottom: 23.5px;
+  background-color: #057a55;
+  margin-top: 0;
+  gap: 5px;
+}
+.menu > .pages > a:first-child:hover {
+  background-color: rgb(175, 165, 165);
+  font-size: 20px;
+}/*# sourceMappingURL=styles.css.map */
